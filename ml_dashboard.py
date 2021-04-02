@@ -11,7 +11,7 @@ import pickle
 
 # importing models
 TFIDF_MODEL = './streamlit_data/tfidf'
-NBC_MODEL = './streamlit_data/NBClassifierModel'
+NBC_MODEL = './streamlit_data/PAClassifierModel'
 
 tfidf_v = load(TFIDF_MODEL)
 classifier = load(NBC_MODEL)
